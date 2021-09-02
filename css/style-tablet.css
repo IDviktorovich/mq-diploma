@@ -1,0 +1,104 @@
+@media (min-width: 641px) and (max-width: 1199px) {
+    .header {
+        background-image: url("../images/banner-bg-tablet.jpg");
+    }
+
+    .header-info {
+        width: 91%;
+    }
+
+    .logo {
+        width: 160px;
+    }
+    .burger-button {
+        display: block;
+        width: 25px;
+        height: 20px;
+    }
+    .menu-navigation {
+        display: none;
+    }
+    .header-title {
+        width: 79%;
+        margin-top: 105px;
+    }
+    .header-title__text {
+        font-size: 40px;
+    }
+
+    .trends {
+        margin-top: 50px;
+    }
+    .trends__header-text {
+        font-size: 18px;
+    }
+    .trends-list {
+        flex-wrap: wrap;
+    }
+    .trend {
+        width: 49.75%;
+        margin-bottom: 3px;
+    }
+
+    .main {
+        width: 91%;
+    }
+    .main-posts {
+        width: 55.7%;
+    }
+    .post {
+        flex-direction: column;
+        width: 100%;
+    }
+    .post-image {
+        width: 100%;
+    }
+    .post-description {
+        margin-top: 10px;
+        margin-left: 0px;
+        padding-bottom: 15px;
+        border-bottom: 3px solid #eeeeee;
+    }
+    .post-description__header {
+        margin-bottom: 35px;
+        font-size: 17px;
+    }
+    .post-description_text {
+        margin-top: 35px;
+    }
+
+    .craft_items {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 4.6%;
+    }
+    .craft__item:nth-child(n+1) {
+        margin-bottom: 30px;
+    }
+    .craft__item:last-child {
+        margin-bottom: 0px;
+    }
+
+    .footer {
+        margin-top: 50px;
+    }
+    .footer-address {
+        margin: 0 4.6% 50px;
+    }
+
+    .feedback {
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .feedback__close-button {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
+    .trend {
+        width: 24.75%;
+    }
+}
