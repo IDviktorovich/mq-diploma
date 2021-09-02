@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MQ-diploma</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-tablet.css">
+    <link rel="stylesheet" href="css/style-mobile.css">
 </head>
 <body>
     
-  <header class="header">
+     <header class="header">
         <div class="header-info">
           <div class="logo">
             <a href="/">
@@ -17,6 +19,12 @@
             </a>
           </div>
           <div class="menu">
+            <svg class="burger-button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="24px" height="24px">
+              <g id="surface92036336">
+                <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 2 5 L 2 7 L 22 7 L 22 5 Z M 2 11 L 2 13 L 22 13 L 22 11 Z M 2 17 L 2 19 L 22 19 L 22 17 Z M 2 17 "/>
+              </g>
+            </svg>
+              
             <nav class="menu-navigation">
               <a class="nav-link" href="#0">Главная</a>
               <a class="nav-link" href="#0">Посты</a>
@@ -291,10 +299,9 @@
           
           <section class="search">
             <form class="search-form" action="#0" method="post">
-              <label>
-                <span class="visually-hidden">Поле поиска</span>
-                <input class="search-form-input" type="search" placeholder="Найти...">
-              </label>
+              <label for="search-form-input"></label>
+              <span class="visually-hidden">Поле поиска</span>
+              <input class="search-form-input" id="search-form-input" type="search" placeholder="Найти...">
               <button class="search-button">
                 <span class="visually-hidden">Кнопка поиска</span>
               </button>
@@ -348,7 +355,7 @@
         <div class="craft_items">
           <div class="craft__item">
             <picture class="craft__item-img">
-              <source media="(min-width: 1201px)" srcset="images/shop-item-desk1.jpg">
+              <source media="(min-width: 1200px)" srcset="images/shop-item-desk1.jpg">
               <source media="(min-width: 641px)" srcset="images/shop-item-tablet1.jpg">
               <source media="(max-width: 640px)" srcset="images/shop-item-mobile1.jpg">
               <img src="images/shop-item-desk1.jpg" alt="Подушка с надписью">
@@ -374,7 +381,7 @@
 
           <div class="craft__item">
             <picture class="craft__item-img">
-              <source media="(min-width: 1201px)" srcset="images/shop-item-desk2.jpg">
+              <source media="(min-width: 1200px)" srcset="images/shop-item-desk2.jpg">
               <source media="(min-width: 641px)" srcset="images/shop-item-tablet2.jpg">
               <source media="(max-width: 640px)" srcset="images/shop-item-mobile2.jpg">
               <img src="images/shop-item-desk2.jpg" alt="Подушка с надписью">
@@ -397,9 +404,9 @@
             </div>
           </div>
 
-          <div class="craft__item">
+        <div class="craft__item">
             <picture class="craft__item-img">
-              <source media="(min-width: 1201px)" srcset="images/shop-item-desk3.jpg">
+              <source media="(min-width: 1200px)" srcset="images/shop-item-desk3.jpg">
               <source media="(min-width: 641px)" srcset="images/shop-item-tablet3.jpg">
               <source media="(max-width: 640px)" srcset="images/shop-item-mobile3.jpg">
               <img src="images/shop-item-desk3.jpg" alt="Подушка с надписью">
